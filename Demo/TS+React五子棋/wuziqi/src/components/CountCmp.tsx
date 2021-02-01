@@ -11,7 +11,6 @@ const CountCmp:React.FC<Iprops> = ({ num, handleChange }) => {
     handleChange(num + val)
   }
 
-
   return (
     <div>
       <button onClick={ () => handleJian(-1) }>-</button>

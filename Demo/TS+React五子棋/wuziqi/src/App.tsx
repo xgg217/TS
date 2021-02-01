@@ -18,8 +18,6 @@ const App:React.FC = () => {
     ChessType.none,
   ];
 
-  
-
   return (
     <div className="box">
       <BoardCmp chessesArr={ typeArr }></BoardCmp>
