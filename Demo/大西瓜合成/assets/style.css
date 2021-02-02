@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  margin: 0 auto;
+  width: 500px;
+  height: 100vh;
+  /* border: 1px solid red; */
+  background-color: #FBE79D;
+}
