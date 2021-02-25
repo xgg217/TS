@@ -6,4 +6,6 @@ poker.log();
 poker.shuffle();
 poker.log();
 
+poker.licensing();
+
 
