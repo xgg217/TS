@@ -12,9 +12,19 @@ interface IType {
   txt:string // 牌的内容
 }
 
+interface IUserT {
+  [user:string]:IType[]
+}
+
 
 class Poker {
-  private pokerArr:IType[] = [];
+  private pokerArr:IType[] = []; // 一副牌
+  licensingObj:IUserT = {
+    user1: [],
+    user2: [],
+    user3: [],
+    bot: []
+  };
 
   constructor() {
     this.init();
