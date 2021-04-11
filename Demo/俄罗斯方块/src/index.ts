@@ -8,6 +8,7 @@ class SquareConsoleViewer implements IView {
   constructor(square:Square) {
     this.square = square;
   }
+  
 
   /**
    * 显示
